@@ -11,7 +11,7 @@ Um diese Testaufgabe erfolgreich zu bestehen, wird das CMS namens Scrivito benö
 1. Die Anleitung dafür ist auf der folgenden Seite zu finden: [https://github.com/Scrivito/scrivito_example_app_js]()
 Hier findest du den passenden Start in die Dokumentation: [https://www.scrivito.com/a-brief-introduction-to-scrivito-10dd2c5367ac9f12]()
 
-2. Du solltest per E-Mail eine Einladung tum Git bekommen haben. Checke auf deinem Rechner bitte folgende Git aus: [ssh://git@gitext.pinuts.de:20022/rumberg/testaufgabe.git](https://github.com/NuIIPointer/testaufgabe.git) und legen einen neuen Branch mit deinem Namen an. Kopiere dein lokal installiertes Scrivito in das Git und mache es lauffähig.
+2. Du solltest per E-Mail eine Einladung tum Git bekommen haben. Checke auf deinem Rechner bitte folgende Git aus: [https://github.com/NuIIPointer/testaufgabe.git](https://github.com/NuIIPointer/testaufgabe.git) und legen einen neuen Branch mit deinem Namen an. Kopiere dein lokal installiertes Scrivito in das Git und mache es lauffähig.
 
 3. Dann programmiere bitte ein Card-Widget, dass ein Bild, eine Headline, einen Text und einen Call-To-Action Button kombiniert. Hier sind drei dieser Widgets jeweils in eine Spalte eines 4-4-4 Column-Widgets (gibt's schon im Scrivito) eingefügt:
 
