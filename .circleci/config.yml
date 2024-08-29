@@ -1,0 +1,32 @@
+version: 2.1
+
+orbs:
+  node: circleci/node@5.0
+
+jobs:
+  execute-npm:
+    parameters:
+      npm-run-command:
+        type: string
+    docker:
+      - image: cimg/base:stable
+    environment:
+      SCRIVITO_TENANT: "1234567890abcdef1234567890abcdef"
+    steps:
+      - checkout
+      - node/install
+      - node/install-packages
+      - run: npm run << parameters.npm-run-command >>
+
+workflows:
+  main:
+    jobs:
+      - execute-npm:
+          name: npm run build
+          npm-run-command: build
+      - execute-npm:
+          name: npm run eslint
+          npm-run-command: eslint
+      - execute-npm:
+          name: npm run es-check
+          npm-run-command: es-check

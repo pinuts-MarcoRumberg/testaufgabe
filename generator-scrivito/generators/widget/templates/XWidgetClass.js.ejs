@@ -1,0 +1,8 @@
+import * as Scrivito from "scrivito";
+
+export const <%= widgetClassName %> = Scrivito.provideWidgetClass("<%= widgetClassName %>", {
+  attributes: {
+    headline: "string",
+  },
+  extractTextAttributes: ["headline"],
+});
